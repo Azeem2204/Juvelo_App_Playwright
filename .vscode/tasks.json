@@ -1,0 +1,124 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run All Tests",
+      "type": "shell",
+      "command": "npm",
+      "args": ["test"],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Tests (Headed)",
+      "type": "shell",
+      "command": "npm",
+      "args": ["test", "--", "--headed"],
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Tests (Debug)",
+      "type": "shell",
+      "command": "npm",
+      "args": ["test", "--", "--debug"],
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Tests (UI Mode)",
+      "type": "shell",
+      "command": "npm",
+      "args": ["test", "--", "--ui"],
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run E2E Tests",
+      "type": "shell",
+      "command": "npm",
+      "args": ["test", "--", "tests/e2e"],
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Tests (Chromium Only)",
+      "type": "shell",
+      "command": "npm",
+      "args": ["test", "--", "--project=chromium"],
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Show Test Report",
+      "type": "shell",
+      "command": "npx",
+      "args": ["playwright", "show-report"],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Codegen - Record Tests",
+      "type": "shell",
+      "command": "npx",
+      "args": ["playwright", "codegen", "https://juveloo.com/"],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Install Browsers",
+      "type": "shell",
+      "command": "npx",
+      "args": ["playwright", "install"],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Install Dependencies",
+      "type": "shell",
+      "command": "npm",
+      "args": ["install"],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
