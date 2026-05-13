@@ -1,0 +1,43 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - link "Juveloo" [ref=e7] [cursor=pointer]:
+      - /url: /
+      - img "Juveloo" [ref=e9]
+    - generic [ref=e10]:
+      - blockquote [ref=e11]: "\"Every great celebration deserves the sea as its backdrop.\""
+      - paragraph [ref=e12]: — Juveloo motto
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]: 500+
+        - generic [ref=e16]: Events
+      - generic [ref=e17]:
+        - generic [ref=e18]: 28+
+        - generic [ref=e19]: Types
+      - generic [ref=e20]:
+        - generic [ref=e21]: 4.9★
+        - generic [ref=e22]: Rating
+  - generic [ref=e24]:
+    - generic [ref=e25]:
+      - button "Sign In" [ref=e26] [cursor=pointer]
+      - button "Create Account" [ref=e27] [cursor=pointer]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: Phone or Email
+        - generic [ref=e31]:
+          - img [ref=e32]
+          - textbox "9000000000 or email@mail.com" [ref=e34]
+      - generic [ref=e35]:
+        - generic [ref=e36]: Password
+        - generic [ref=e37]:
+          - img [ref=e38]
+          - textbox "••••••••" [ref=e41]
+          - button [ref=e42] [cursor=pointer]:
+            - img [ref=e43]
+      - button "Sign In →" [ref=e46] [cursor=pointer]
+      - paragraph [ref=e47]:
+        - text: No account?
+        - button "Create one free" [ref=e48] [cursor=pointer]
+    - paragraph [ref=e49]:
+      - text: Admin?
+      - link "Admin login →" [ref=e50] [cursor=pointer]:
+        - /url: /admin/login

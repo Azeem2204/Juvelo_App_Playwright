@@ -1,15 +1,32 @@
 {
   "name": "juvelo_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Juveloo Event Booking Application - Playwright Tests",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:trace": "playwright test --trace on",
+    "test:cucumber": "cucumber-js",
+    "test:cucumber:headed": "cucumber-js --publish-quiet"
+  },
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "bdd",
+    "e2e",
+    "testing"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1",
     "@playwright/test": "^1.59.1",
-    "@types/node": "^25.6.2"
+    "@types/node": "^25.6.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
   }
 }

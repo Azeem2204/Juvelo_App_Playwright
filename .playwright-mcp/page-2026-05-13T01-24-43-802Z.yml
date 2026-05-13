@@ -1,0 +1,237 @@
+- generic [ref=e2]:
+  - generic [ref=e51]:
+    - banner [ref=e52]:
+      - generic [ref=e53]:
+        - link "Juveloo" [ref=e54] [cursor=pointer]:
+          - /url: /
+          - img "Juveloo" [ref=e55]
+        - navigation [ref=e56]:
+          - link "Home" [ref=e57] [cursor=pointer]:
+            - /url: /
+          - link "Beach Parties" [ref=e58] [cursor=pointer]:
+            - /url: /category/BEACH_PARTIES
+          - link "Weddings" [ref=e59] [cursor=pointer]:
+            - /url: /category/WEDDING
+          - link "Corporate" [ref=e60] [cursor=pointer]:
+            - /url: /category/CORPORATE
+          - link "Cultural" [ref=e61] [cursor=pointer]:
+            - /url: /category/CULTURAL
+        - generic [ref=e62]:
+          - link "Contact" [ref=e63] [cursor=pointer]:
+            - /url: /contact
+          - generic [ref=e64]:
+            - button "9+" [ref=e66] [cursor=pointer]:
+              - img [ref=e67]
+              - generic [ref=e70]: 9+
+            - button "Shaik" [ref=e72] [cursor=pointer]:
+              - img [ref=e74]
+              - generic [ref=e77]: Shaik
+              - img [ref=e78]
+    - main [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e83]:
+          - button [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+          - generic [ref=e87]:
+            - 'heading "Book: Sunset Beach Party" [level=1] [ref=e88]'
+            - paragraph [ref=e89]: Step 1 of 4 — Package
+        - generic [ref=e91]:
+          - generic [ref=e93]:
+            - generic [ref=e94]: "1"
+            - generic [ref=e95]: Package
+          - generic [ref=e98]:
+            - generic [ref=e99]: "2"
+            - generic [ref=e100]: Add-ons
+          - generic [ref=e103]:
+            - generic [ref=e104]: "3"
+            - generic [ref=e105]: Details
+          - generic [ref=e108]:
+            - generic [ref=e109]: "4"
+            - generic [ref=e110]: Confirm
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - generic [ref=e114]:
+              - heading "Select a Package" [level=2] [ref=e115]
+              - paragraph [ref=e116]: Choose the package that suits your celebration
+              - generic [ref=e117]:
+                - generic [ref=e119] [cursor=pointer]:
+                  - generic [ref=e120]:
+                    - heading "Live Payment Test (Rs 20)" [level=3] [ref=e122]
+                    - paragraph [ref=e123]: Internal test package for payment-gateway verification. Not for customer booking.
+                    - generic [ref=e124]:
+                      - generic [ref=e125]: 👥 Up to 5 guests
+                      - generic [ref=e126]: ⏱ 30 min setup
+                  - generic [ref=e128]: ₹20
+                - generic [ref=e131] [cursor=pointer]:
+                  - generic [ref=e132]:
+                    - heading "Basic Party" [level=3] [ref=e134]
+                    - paragraph [ref=e135]: Small group beach party with DJ
+                    - list [ref=e136]:
+                      - listitem [ref=e137]:
+                        - generic [ref=e138]: ✓
+                        - text: DJ for 2 hrs
+                      - listitem [ref=e139]:
+                        - generic [ref=e140]: ✓
+                        - text: LED lights
+                      - listitem [ref=e141]:
+                        - generic [ref=e142]: ✓
+                        - text: Welcome drinks
+                      - listitem [ref=e143]:
+                        - generic [ref=e144]: ✓
+                        - text: Snacks platter
+                      - listitem [ref=e145]: +1 more
+                    - generic [ref=e146]:
+                      - generic [ref=e147]: 👥 Up to 15 guests
+                      - generic [ref=e148]: ⏱ 60 min setup
+                  - generic [ref=e150]: ₹5,000
+                - generic [ref=e153] [cursor=pointer]:
+                  - generic [ref=e154]:
+                    - heading "Classic Proposal" [level=3] [ref=e156]
+                    - paragraph [ref=e157]: Petal trail + candles + violinist
+                    - list [ref=e158]:
+                      - listitem [ref=e159]:
+                        - generic [ref=e160]: ✓
+                        - text: Petal trail
+                      - listitem [ref=e161]:
+                        - generic [ref=e162]: ✓
+                        - text: Floating candles
+                      - listitem [ref=e163]:
+                        - generic [ref=e164]: ✓
+                        - text: Violinist (30 min)
+                      - listitem [ref=e165]:
+                        - generic [ref=e166]: ✓
+                        - text: Photographer
+                      - listitem [ref=e167]: +1 more
+                    - generic [ref=e168]:
+                      - generic [ref=e169]: 👥 Up to 50 guests
+                      - generic [ref=e170]: ⏱ 120 min setup
+                  - generic [ref=e172]: ₹10,000
+                - generic [ref=e175] [cursor=pointer]:
+                  - generic [ref=e176]:
+                    - generic [ref=e177]:
+                      - heading "Grand Party" [level=3] [ref=e178]
+                      - generic [ref=e179]: Recommended
+                      - generic [ref=e180]: Featured
+                    - paragraph [ref=e181]: Large beach party with full catering and DJ
+                    - list [ref=e182]:
+                      - listitem [ref=e183]:
+                        - generic [ref=e184]: ✓
+                        - text: DJ for 4 hrs
+                      - listitem [ref=e185]:
+                        - generic [ref=e186]: ✓
+                        - text: Full sound system
+                      - listitem [ref=e187]:
+                        - generic [ref=e188]: ✓
+                        - text: Live BBQ catering
+                      - listitem [ref=e189]:
+                        - generic [ref=e190]: ✓
+                        - text: Bar setup
+                      - listitem [ref=e191]: +3 more
+                    - generic [ref=e192]:
+                      - generic [ref=e193]: 👥 Up to 30 guests
+                      - generic [ref=e194]: ⏱ 90 min setup
+                  - generic [ref=e196]: ₹12,000
+            - generic [ref=e199]:
+              - heading "Booking Summary" [level=3] [ref=e200]
+              - generic [ref=e201]:
+                - generic [ref=e202]:
+                  - paragraph [ref=e203]: Event
+                  - paragraph [ref=e204]: Sunset Beach Party
+                - text: "0"
+              - generic [ref=e205]:
+                - generic [ref=e206]:
+                  - generic [ref=e207]: ✓
+                  - text: Free consultation included
+                - generic [ref=e208]:
+                  - generic [ref=e209]: ✓
+                  - text: Confirm with 30% advance
+                - generic [ref=e210]:
+                  - generic [ref=e211]: ✓
+                  - text: Cancellation support
+          - generic [ref=e212]:
+            - button "Back to Event" [ref=e213] [cursor=pointer]:
+              - img [ref=e214]
+              - text: Back to Event
+            - 'button "Next: Add-ons" [ref=e216] [cursor=pointer]':
+              - text: "Next: Add-ons"
+              - img [ref=e217]
+    - contentinfo [ref=e219]:
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - heading "Ready to plan your dream event?" [level=3] [ref=e222]
+          - paragraph [ref=e223]: Let's create memories that last a lifetime on Chirala beach.
+        - link "Book Now →" [ref=e224] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - img "Juveloo" [ref=e228]
+          - paragraph [ref=e229]: Andhra Pradesh's premier beach event company. We make every occasion unforgettable.
+          - generic [ref=e230]:
+            - link [ref=e231] [cursor=pointer]:
+              - /url: https://instagram.com/chiralaevents
+              - img [ref=e232]
+            - link [ref=e235] [cursor=pointer]:
+              - /url: https://wa.me/919000000001?text=Hi!%20I'm%20interested%20in%20booking%20an%20event
+              - img [ref=e236]
+            - link [ref=e238] [cursor=pointer]:
+              - /url: tel:+919000000001
+              - img [ref=e239]
+        - generic [ref=e241]:
+          - heading "Events" [level=4] [ref=e242]
+          - list [ref=e243]:
+            - listitem [ref=e244]:
+              - link "Beach Parties" [ref=e245] [cursor=pointer]:
+                - /url: /category/BEACH_PARTIES
+            - listitem [ref=e246]:
+              - link "Weddings" [ref=e247] [cursor=pointer]:
+                - /url: /category/WEDDING
+            - listitem [ref=e248]:
+              - link "Corporate" [ref=e249] [cursor=pointer]:
+                - /url: /category/CORPORATE
+            - listitem [ref=e250]:
+              - link "Celebrations" [ref=e251] [cursor=pointer]:
+                - /url: /category/CELEBRATION
+            - listitem [ref=e252]:
+              - link "Cultural" [ref=e253] [cursor=pointer]:
+                - /url: /category/CULTURAL
+            - listitem [ref=e254]:
+              - link "Family Events" [ref=e255] [cursor=pointer]:
+                - /url: /category/FAMILY
+        - generic [ref=e256]:
+          - heading "Company" [level=4] [ref=e257]
+          - list [ref=e258]:
+            - listitem [ref=e259]:
+              - link "About Us" [ref=e260] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e261]:
+              - link "Become a Vendor" [ref=e262] [cursor=pointer]:
+                - /url: /vendors
+            - listitem [ref=e263]:
+              - link "Admin Login" [ref=e264] [cursor=pointer]:
+                - /url: /admin/login
+            - listitem [ref=e265]:
+              - link "Privacy Policy" [ref=e266] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e267]:
+              - link "Terms of Service" [ref=e268] [cursor=pointer]:
+                - /url: /terms
+        - generic [ref=e269]:
+          - heading "Contact" [level=4] [ref=e270]
+          - list [ref=e271]:
+            - listitem [ref=e272]:
+              - img [ref=e273]
+              - generic [ref=e276]:
+                - text: Beach Road, Chirala,
+                - text: Andhra Pradesh – 523155
+            - listitem [ref=e277]:
+              - img [ref=e278]
+              - link "+91 90000 00001" [ref=e280] [cursor=pointer]:
+                - /url: tel:+919000000001
+            - listitem [ref=e281]:
+              - img [ref=e282]
+              - link "hello@chiralaevents.com" [ref=e285] [cursor=pointer]:
+                - /url: mailto:hello@chiralaevents.com
+      - generic [ref=e286]:
+        - generic [ref=e287]: © 2026 Juveloo. All rights reserved.
+        - generic [ref=e288]: Made with ♥ in Andhra Pradesh
+  - status [ref=e294]: Welcome back!

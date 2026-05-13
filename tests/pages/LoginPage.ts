@@ -43,4 +43,21 @@ export class LoginPage extends BasePage {
   async isLoginFormVisible(): Promise<boolean> {
     return this.isVisible(this.emailInput);
   }
+
+  async fillEmail(email: string) {
+    await this.fillText(this.emailInput, email);
+  }
+
+  async fillPassword(password: string) {
+    await this.fillText(this.passwordInput, password);
+  }
+
+  async clickSignInButton() {
+    await this.clickElement(this.loginButton);
+    await this.waitForPageLoad();
+  }
+
+  async isSignInButtonEnabled(): Promise<boolean> {
+    return this.page.locator(this.loginButton).isEnabled();
+  }
 }

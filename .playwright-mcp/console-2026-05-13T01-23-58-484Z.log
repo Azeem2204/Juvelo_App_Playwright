@@ -1,0 +1,4 @@
+[     134ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://juveloo.com/book/2:0
+[     530ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://juveloo.com/login?redirect=/book/2:0
+[     552ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://juveloo.com/favicon.svg:0
+[     580ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://juveloo.com/favicon.svg:0

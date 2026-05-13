@@ -58,4 +58,36 @@ export class PaymentPage extends BasePage {
   async isOrderConfirmationVisible(): Promise<boolean> {
     return this.isVisible(this.orderConfirmation);
   }
+
+  async closePaymentPopup() {
+    try {
+      // Try pressing Escape key
+      await this.page.keyboard.press('Escape');
+      await this.page.waitForTimeout(300);
+    } catch (e) {
+      console.error('Error pressing Escape:', e);
+    }
+
+    try {
+      // Try clicking close button (X button) if visible
+      const closeButton = this.page.locator('button[aria-label="Close"], .modal-close, [class*="close"]').first();
+      if (await closeButton.isVisible({ timeout: 2000 }).catch(() => false)) {
+        await closeButton.click();
+        await this.page.waitForTimeout(500);
+      }
+    } catch (e) {
+      console.error('Error clicking close button:', e);
+    }
+
+    try {
+      // Try clicking outside the modal (backdrop)
+      const modalBackdrop = this.page.locator('[class*="backdrop"], [class*="overlay"]').first();
+      if (await modalBackdrop.isVisible({ timeout: 2000 }).catch(() => false)) {
+        await modalBackdrop.click();
+        await this.page.waitForTimeout(500);
+      }
+    } catch (e) {
+      console.error('Error clicking backdrop:', e);
+    }
+  }
 }
